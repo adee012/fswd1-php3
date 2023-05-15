@@ -14,7 +14,7 @@ require "function.php";
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Dashboard - SB Admin</title>
+    <title>Arkatama Store</title>
     <link href="css/styles.css" rel="stylesheet" />
     <link
       href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css"
@@ -43,24 +43,32 @@ require "function.php";
         <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
           <div class="sb-sidenav-menu">
             <div class="nav">
-            <div class="sb-sidenav-menu-heading">Main Menu</div>
-              <a class="nav-link" href="index.php">
+            <div class="sb-sidenav-menu-heading">Arkatama Store</div>
+            <a class="nav-link" href="index.php">
                 <div class="sb-nav-link-icon">
-                  <i class="fas fa-tachometer-alt"></i>
+                  <i class="fas fa-clipboard-list"></i>
                 </div>
                 Dashboard
               </a>
               <a class="nav-link" href="products.php">
                 <div class="sb-nav-link-icon">
-                  <i class="fa fa-steam"></i>
+                  <i class="fas fa-boxes"></i>
                 </div>
                 Products
               </a>
               <a class="nav-link" href="categories.php">
                 <div class="sb-nav-link-icon">
-                  <i class="fas fa-tachometer-alt"></i>
+                  <i class="fas fa-box"></i>
                 </div>
                 Categories
+              </a>
+
+              <div class="sb-sidenav-menu-heading">Menu Admin</div>
+              <a class="nav-link" href="users.php">
+                <div class="sb-nav-link-icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                Users
               </a>
 
             </div>

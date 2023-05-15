@@ -14,7 +14,7 @@ require "function.php";
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Dashboard - SB Admin</title>
+    <title>Arkatama Store</title>
     <link href="css/styles.css" rel="stylesheet" />
     <link
       href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css"
@@ -28,7 +28,7 @@ require "function.php";
   </head>
   <body class="sb-nav-fixed">
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.php">Task PHP3</a>
+      <a class="navbar-brand" href="index.php">Arkatama Store</a>
       <button
         class="btn btn-link btn-sm order-1 order-lg-0"
         id="sidebarToggle"
@@ -44,23 +44,31 @@ require "function.php";
           <div class="sb-sidenav-menu">
             <div class="nav">
             <div class="sb-sidenav-menu-heading">Main Menu</div>
-              <a class="nav-link" href="index.php">
+            <a class="nav-link" href="index.php">
                 <div class="sb-nav-link-icon">
-                  <i class="fas fa-tachometer-alt"></i>
+                  <i class="fas fa-clipboard-list"></i>
                 </div>
                 Dashboard
               </a>
               <a class="nav-link" href="products.php">
                 <div class="sb-nav-link-icon">
-                  <i class="fa fa-steam"></i>
+                  <i class="fas fa-boxes"></i>
                 </div>
                 Products
               </a>
               <a class="nav-link" href="categories.php">
                 <div class="sb-nav-link-icon">
-                  <i class="fas fa-tachometer-alt"></i>
+                  <i class="fas fa-box"></i>
                 </div>
                 Categories
+              </a>
+
+              <div class="sb-sidenav-menu-heading">Menu Admin</div>
+              <a class="nav-link" href="users.php">
+                <div class="sb-nav-link-icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                Users
               </a>
 
             </div>
